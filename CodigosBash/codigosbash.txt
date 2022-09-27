@@ -10,6 +10,9 @@ git config --global user.email "e-mail"
 
 git config --global user.name 
 
+$ git config --global --unset user.name ( Trocar Name )
+
+
 evalgitecho 'Hello' | git hash-object --stdin
 echo -e 'Hello' | openssl sha1        ( Criptografias)
 echo -e 'blob 9\0Hello' | openssl sha1
