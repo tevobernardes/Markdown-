@@ -1,0 +1,43 @@
+git init 
+
+ls -a
+
+git config --global user.email "e-mail"
+
+git config --global user.name 
+
+evalgitecho 'Hello' | git hash-object --stdin
+echo -e 'Hello' | openssl sha1        ( Criptografias)
+echo -e 'blob 9\0Hello' | openssl sha1
+
+ssh-keygen -t ed25519 -C email ( Criar Chave )
+
+cd /c/users/usuario/.ssh/
+
+ls ( Listar )
+
+cat id_ed25519.pub ( Criar Chave Publica )
+
+pwd
+
+eval $(ssh-agent -s) (Pid)
+
+ssh-add id_ed25519 ( Add chave Privada )
+
+
+cd .. (Retroceder)
+
+git clone https://...
+
+
+cd (Entrar No Repositório)
+ 
+git status ( Verificação )
+
+
+git add . ( Arquivo Considerado Ou Add Local no Controle de versão )
+
+
+
+git commit -m "Inicio de Inclusão no GitHub"
+git push origin main ( Mandando Para o GitHub )
