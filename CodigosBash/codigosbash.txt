@@ -1,5 +1,9 @@
 git init 
 
+mkdir ( Criar diretório )
+
+mv pasta.md ./novapasta/ ( Mover)
+
 ls -a
 
 git config --global user.email "e-mail"
